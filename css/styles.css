@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Peddana', serif;
+    text-align: center;
+}
+
+
+header {
+    background-color: #f8f8f8;
+}
+
+img {
+    height: 200px;
+    width:300px;
+}
+
+.image {
+    height: 150px;
+    width: 250px;
+}
+
+.main-nav li {
+    display: block;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+
+.main-nav {
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
