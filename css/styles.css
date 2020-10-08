@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: auto;
-    max-width: 320px;
+
 }
 
 body {
@@ -33,8 +32,14 @@ p {
     line-height: 1;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 320px;
+}
+
 .contact {
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .image {
@@ -68,10 +73,23 @@ height: 150px;
 width: 300px;
 }
 
-.secondary-nav {
+.secondary-nav li {
     display: inline-block;
+    text-transform: uppercase;
 }
 
+.top {
+    position: relative;
+    left: 90px;
+    bottom: 8px;
+}
+
+.student {
+    position: relative;
+    top: 45px;
+    right: 110px;
+    font-weight: bold;
+}
 
 
 a {
@@ -96,4 +114,16 @@ a {
     content: "";
     display: table;
     clear: both;
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        width: 768px;
+    }
+
+    .image {
+        float: right;
+    }
+
 }
